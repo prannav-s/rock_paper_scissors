@@ -3,9 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <title>Rock Paper Scissors!</title>
+  <script src = 'script.js' defer></script>
+  <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-  <script src = 'script.js'></script>
+  <div class="header">
+    <h1>Welcome to Rock, Paper, Scissors!</h1>
+  </div>
+  <div class="container">
+    <div class="info-container">
+      <div class="btn-container">
+        <button id="rock">rock<img class="rock" src="./assets/rock.webp" alt=""></button>
+        <button id="paper">paper<img class="paper" src="./assets/paper.webp" alt=""></button>
+        <button id="scissors">scissors<img class="scissors" src="./assets/scissors.webp" alt=""></button>
+        <button id="finish">End Game<img class="finish" src="./assets/finish.png" alt=""></button>
+      </div>
+      <div id="results">
+        <div id = "score"></div>
+        <div id = "message"></div>
+      </div>
+  </div>
+    <div class="battle-display">
+      <div class="user-side side">
+        <h1>You</h1>
+        <img id="user-img" src="./assets/question.png" alt="">
+      </div>
+      <div class="versus">VS</div>
+      <div class="comp-side side">
+        <h1>Computer</h1>
+        <img id="comp-img" src="assets/question.png" alt="">
+      </div>
+    </div>
+  </div>
 </body>
 </html>
