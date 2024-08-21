@@ -1,0 +1,100 @@
+/* Media Queries for Mobile Devices */
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 4vh;
+    }
+
+    h4 {
+        font-size: 2.5vh;
+    }
+
+    .header {
+        padding-top: 2vh;
+        padding-bottom: 1vh;
+    }
+
+    .btn-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2vh;
+        padding-top: 4vh;
+    }
+
+    button {
+        height: 15vh;
+        width: 15vh;
+        font-size: 2vh;
+    }
+
+    img {
+        width: 15vh;
+    }
+
+    img.paper {
+        width: 10vh;
+    }
+
+    img.scissors {
+        width: 13vh;
+    }
+
+    img.finish {
+        width: 10vh;
+    }
+
+    .versus {
+        margin-top: 5vh;
+        font-size: 2.5vh;
+    }
+
+    .battle-display {
+        flex-direction: column;
+        padding-top: 2vh;
+    }
+
+    .side {
+        width: 80vw;
+        margin-bottom: 3vh;
+    }
+
+    .container {
+        height: auto;
+        padding-bottom: 10vh;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 3.5vh;
+    }
+
+    h4 {
+        font-size: 2vh;
+    }
+
+    .btn-container {
+        grid-template-columns: 1fr;
+    }
+
+    button {
+        height: 12vh;
+        width: 12vh;
+        font-size: 1.8vh;
+    }
+
+    img {
+        width: 12vh;
+    }
+
+    img.paper, img.finish {
+        width: 8vh;
+    }
+
+    img.scissors {
+        width: 10vh;
+    }
+
+    .versus {
+        font-size: 2vh;
+    }
+}
