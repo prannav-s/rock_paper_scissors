@@ -9,8 +9,12 @@
     }
 
     .header {
-        padding-top: 2vh;
-        padding-bottom: 1vh;
+        padding: 2vh 4vw;
+    }
+
+    .info-container {
+        display: flex;
+        justify-content: center;
     }
 
     .btn-container {
@@ -18,7 +22,6 @@
         grid-template-columns: 1fr 1fr;
         gap: 2vh;
         padding-top: 4vh;
-        padding-left: 8vh;
     }
 
     button {
